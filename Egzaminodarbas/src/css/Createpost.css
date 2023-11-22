@@ -1,0 +1,76 @@
+
+.create-post-page{
+    margin:auto;
+    margin-top: 100px;
+    background-color: rgb(252, 251, 249);
+    width: 25%;
+    height: auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(109, 120, 122, 0.8) 0px 5px 5px;
+}
+
+.cptitle{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.cpContainer label{
+    font-size: 20px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+.inputGp{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leline{
+    width: 75%;;
+    margin-top: -35px;
+    background-image: linear-gradient(to right, #b12a01, #a57b06);
+    border: none;
+    height: 1px;
+}
+
+input{
+    background-color: rgb(188, 189, 180);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 85%;
+    margin: auto;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textarea1{
+    background-color: rgb(188, 189, 180);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 85%;
+    margin: auto;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cbt{
+    margin-top: 10px;
+    margin-left: 37px;
+    background-color: rgb(188, 189, 180);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 85%;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.cbt:active{
+    background-color: #1e06a5;
+    color: aliceblue;
+    transition-duration: 0.2s;
+}

@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 249, 240);
+  }
+  
+  h1{
+    color: rgb(226, 226, 226);
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  nav{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(194, 115, 115), rgb(255, 145, 0));
+    height: 75px;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030;
+  }
+  
+  nav li{
+    margin: 40px;
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+    transition: color 0.5s ease;
+    color: bisque;
+    font-size: 20px;
+    transition: 0.5s ease;
+  }
+  
+  a:hover{
+    color: rgb(46, 12, 12);
+    transition: 0.5s;
+  }
+  
+  .textbar1{
+    width: 45%;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+  }
+  
+  .logout{
+    background: none;
+    border: none;
+    color: bisque;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  .logout:hover{
+    color: rgb(46, 12, 12);
+    transition: 0.5s;
+  }
+  
+  select{
+    background:none;
+    width: 10%;
+    border-color: aliceblue;
+    color: aliceblue;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+    margin-left: 200px;
+  }
+  
+  .opt{
+    background-color: rgb(116, 109, 100);
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .userprofile{
+    border-radius: 50%;
+    width: 45px;
+  }

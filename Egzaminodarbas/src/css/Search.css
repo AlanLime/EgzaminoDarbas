@@ -1,0 +1,28 @@
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    
+}
+
+.textfield1{
+    background-color: aliceblue;
+    width:600px;
+}
+
+.btnsearch{
+    background: none;
+    color: rgb(238, 236, 215);
+    border-color: rgb(238, 236, 215);
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.form1{
+    display: flex;
+    gap: 10px;
+}
